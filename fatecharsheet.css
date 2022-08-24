@@ -1,0 +1,76 @@
+* {
+    background-color: rgb(191, 224, 230);
+    text-align: center;
+}
+
+table {
+    border: 1px solid rgb(12, 156, 179);
+
+}
+
+td, tbody {
+    background-color: rgb(222, 229, 231);
+}
+
+thead, th {
+    background-color: rgb(12, 156, 179);
+    color: rgb(3, 76, 109);
+}
+
+label, input, textarea, span {
+    background-color: transparent;
+    color: rgb(3, 76, 109);
+}
+
+.firstblock {
+    width: fit-content;
+    position: relative;
+    table-layout: auto;
+    left: 20%;
+}
+
+.secondblock {
+    display: flex;
+    width:fit-content;
+    left: 20%;
+    position: relative;
+}
+
+.aspects {
+    flex: 30%;
+    padding: .5%;
+}
+.vitals {
+    flex: 30%;
+    padding: .5%;
+}
+
+.balance {
+    flex: 30%;
+    padding: .5%;
+}
+
+.thirdblock {
+    display: flex;
+    width: fit-content;
+    left: 12%;
+    position: relative;
+}
+
+.skills {
+    flex: 40%;
+    padding: .5%;
+}
+
+.powerprofile {
+    flex: 50%;
+    padding: .5%;
+}
+
+.otherstunt {
+    display: flex;
+    width: fit-content;
+    left: 25%;
+    position: relative;
+
+}

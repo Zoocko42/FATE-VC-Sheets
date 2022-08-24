@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="fatecharsheet.css">
+</head>
+<!--Placeholders all!!!!!-->
+<!--This section is the first block, also containing the game title.-->
+<section name="firstblock">
+    <div class="firstblock">
+    <table>
+        <tr>
+            <th><label for="patient-name">Patient Name</label></th>
+            <td>
+                    <input type="text" name="patient-name" id="patient-name">
+            </td>
+            <div class="Sheet-Title">
+                <td rowspan="3" style="font-size:300%; color: rgb(3, 76, 109); ">VENTURE CITY</th>
+            </div>        
+        </tr>
+        <tr>
+            <th><label for="occupation">Current Occupation</label></th>
+            <td>
+                    <input type="text" name="occupation" id="occupation">
+            </td>
+        </tr>
+        <tr>
+            <th><label for="powerset">Desired Powerset</label></th>
+            <td>
+                    <input type="text" name="powerset" id="powerset">
+            </td>
+        </tr>
+    </table>
+    </div>
+</section>
+<!--The secondblock division contains Aspects, Vitals, and Balance-->
+<div class="secondblock">
+<!--This section is for Aspects-->
+<section name="aspects">
+    <div class="aspects">
+    <table>
+        <tr>
+            <th colspan="2">ASPECTS</th>
+        </tr>
+        <tr>
+            <td><label for="hconcept">HIGH CONCEPT</label></td>
+            <td><input type="text" name="hconcept" id="hconcept"></td>
+        </tr>
+        <tr>
+            <td><label for="trouble">TROUBLE</label></td>
+            <td><input type="text" name="trouble" id="trouble"></td>
+        </tr>
+        <tr>
+            <td><label for="other1">OTHER</label></td>
+            <td><input type="text" name="other" id="other1"></td>
+        </tr>
+        <tr>
+            <td><label for="other2">OTHER</label></td>
+            <td><input type="text" name="other" id="other2"></td>
+        </tr>
+        <tr>
+            <td><label for="other3">OTHER</label></td>
+            <td><input type="text" name="other" id="other3"></td>
+        </tr>
+    </table>
+    </div>
+</section>
+<!--This section is for Vitals and Consequences-->
+<section name="vitals">
+    <div class="vitals">
+    <table>
+        <tr><th colspan="4">VITALS</th></tr>
+        <tr><th colspan="4">
+            <label for="pstress">(Physique) PHYSICAL STRESS</label>
+            <br>
+            <span>0</span>
+                <input type="range" name="pstress" min="0" max="5" id="pstress"
+            <span>5</span>
+        </th></tr>
+        <tr><th colspan="4">
+            <label for="mstress">(Will) MENTAL STRESS</label>
+            <br>
+            <span>0</span>
+                <input type="range" name="mstress" min="0" max="5" id="mstress"
+            <span>5</span>
+        </th></tr>
+        <tr><th colspan="4">CONSEQUENCES</th></tr>
+        <tr>
+            <td><label for="mild">Mild</label></td>
+            <td><input type="text" name="mild" id="mild"></td>
+            <td><input type="checkbox" name="mildnum" id="mildnum" value="mildnum"></td>
+            <td><label for="mildnum">2</label></td>
+        </tr>
+        <tr>
+            <td><label for="moderate">Moderate</label></td>
+            <td><input type="text" name="moderate" id="moderate"></td>
+            <td><input type="checkbox" name="modnum" id="modnum" value="modnum"></td>
+            <td><label for="modnum">4</label></td>
+        </tr>
+        <tr>
+            <td><label for="severe">Severe</label></td>
+            <td><input type="text" name="severe" id="severe"></td>
+            <td><input type="checkbox" name="sevnum" id="sevnum" value="sevnum"></td>
+            <td><label for="sevnum">6</label></td>
+        </tr>
+    </table>
+    </div>
+</section>
+<!--This section is for Balance (Refresh and Stunts)-->
+<section name="Balance">
+    <div class="balance">
+    <table>
+        <tr><th>BALANCE</th></tr>
+        <tr>
+            <td>
+                <label for="refresh">REFRESH</label>
+                <br>
+                <input type="checkbox" name="refresh" id="refresh" value="refresh">
+                <input type="checkbox" name="refresh" id="refresh" value="refresh">
+                <input type="checkbox" name="refresh" id="refresh" value="refresh">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="stunts">STUNTS</label>
+                <br>
+                <input type="checkbox" name="stunts" id="stunts" value="stunts">
+                <input type="checkbox" name="stunts" id="stunts" value="stunts">
+                <input type="checkbox" name="stunts" id="stunts" value="stunts">
+                <br>
+                <input type="checkbox" name="stunts" id="stunts" value="stunts">
+                <input type="checkbox" name="stunts" id="stunts" value="stunts">
+                <input type="checkbox" name="stunts" id="stunts" value="stunts">
+            </td>
+        </tr>
+    </table>
+    </div>
+</section>
+</div>
+<!--The third block contains Skills, Power Profile, and the Other Stunts-->
+<div class="thirdblock">
+<div class="skillsinventory">
+<!--This section is the Skills Inventory-->
+<section name="skillsinventory">
+    <table>
+        <tr><th colspan="2">SKILLS INVENTORY</th></tr>
+        <tr>
+            <td>
+                <label for="4skill">+4 Skill</label>
+                <input type="text" name="4skill" id="4skill">
+                <br>
+                <label for="3skill1">+3 Skill</label>
+                <input type="text" name="3skill1" id="3skill1">
+                <br>
+                <label for="3skill2">+3 Skill</label>
+                <input type="text" name="3skill2" id="3skill2">
+                <br>
+                <label for="2skill1">+2 Skill</label>
+                <input type="text" name="2skill1" id="2skill1">
+                <br>
+                <label for="2skill2">+2 Skill</label>
+                <input type="text" name="2skill2" id="2skill2">
+                <br>
+                <label for="2skill3">+2 Skill</label>
+                <input type="text" name="2skill3" id="2skill3">
+                <br>
+                <label for="4skill">+1 Skill</label>
+                <input type="text" name="4skill" id="4skill">
+                <br>
+                <label for="1skill1">+1 Skill</label>
+                <input type="text" name="1skill1" id="1skill1">
+                <br>
+                <label for="1skill2">+1 Skill</label>
+                <input type="text" name="1skill2" id="1skill2">
+                <br>
+                <label for="1skill3">+1 Skill</label>
+                <input type="text" name="1skill3" id="1skill3">
+                <br>
+                <label for="0skill1">+0 Skill</label>
+                <input type="text" name="0skill1" id="0skill1">
+                <br>
+                <label for="0skill2">+0 Skill</label>
+                <input type="text" name="0skill2" id="0skill2">
+                <br>
+                <label for="0skill3">+0 Skill</label>
+                <input type="text" name="0skill3" id="0skill3">
+                <br>
+                <label for="0skill4">+0 Skill</label>
+                <input type="text" name="0skill4" id="0skill4">
+                <br>
+                <label for="0skill5">+0 Skill</label>
+                <input type="text" name="0skill5" id="0skill5">
+                <br>
+            </td>
+        </tr>
+    </table>
+</section>
+</div>
+<!--This section is the Power Profile, where you describe the power(s) that make up your powerset.-->
+<section name="powerprofile">
+    <div class="powerprofile">
+    <table>
+        <thead>
+            <tr>
+                <th>POWER PROFILE</th>
+                <th>
+                    <label for="powercost">COST</label>
+                    <br>
+                    <input type="number" name="powercost" id="powercost" min="0" max="8">
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="powersum">POWER NAME & SUMMARY</label>
+                    <br>
+                    <textarea id="powersum" name="powersum" rows="5" cols="40">Name and describe your powerset here!</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="powerbreak">POWER BREAKDOWN</label>
+                    <br>
+                    <textarea id="powerbreak" name="powerbreak" rows="5" cols="40">List the powers and enhancements that make up your powerset!</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="specfx">SPECIAL EFFECTS (get 2 free w/ power; trigger on success with style)</label>
+                    <br>
+                    <textarea id="specfx" name="specfx" rows="3" cols="40">List what cool things you can do when you succeed with style!</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="drawback">DRAWBACK (an aspect, "trouble" for your power)</label>
+                    <br>
+                    <textarea id="drawback" name="drawback" rows="2" cols="40">List an issue or "trouble" caused by your power(s).</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="collateral">COLLATERAL DAMAGE EFFECT</label>
+                    <br>
+                    <textarea id="collateral" name="collateral" rows="3" cols="40">List an ability you can do to get some benefits, but with drawbacks that cause collateral damage.</textarea>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</section>
+<!--This section is for other stunts you have unrelated to your powers.-->
+<section name="otherstunt">
+    <div class="otherstunt">
+    <table>
+        <thead>
+            <tr>
+                <th>OTHER STUNTS</th>
+                <th>
+                    <label for="stuntcost">COST</label>
+                    <br>
+                    <input type="number" name="stuntcost" id="stuntcost" min="0" max="5">
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <textarea id="collateral" name="collateral" rows="6" cols="40">List other stunts your character has that are unrelated to their superpowers.</textarea>
+                </td>
+            </tr>
+        </tbody>
+    </section>
+    </div>
+</html>
