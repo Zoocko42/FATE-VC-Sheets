@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Venture City - Character Sheet</title>
+  </head>
+  <body>
+    <header>
+        <!-- This section contains the title and first three entry fields. -->
+        <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col d-flex flex-column">
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Patient Name</span>
+                        <textarea class="form-control" aria-label="Patient Name"></textarea>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Current Occupation</span>
+                        <textarea class="form-control" aria-label="Current Occupation"></textarea>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Desired Powerset</span>
+                        <textarea class="form-control" aria-label="Desired Powerset"></textarea>
+                      </div>
+                </div>
+              </div>
+              <div class="col align-self-center">
+                <h1>Venture City</h1>
+              </div>
+            </div>
+    </header>
+<!--The second row division contains Aspects, Vitals, and Balance-->
+    <div class="container text-center">
+        <div class="row align-items-start">
+            <!-- This is the Aspects section. -->
+            <div class="col d-flex flex-column col-4">
+                <div class="col">
+                    <h3>Aspects</h3>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">High Concept</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">Trouble</span>
+                        <textarea class="form-control" aria-label="Trouble"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">Other</span>
+                        <textarea class="form-control" aria-label="Other"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">Other</span>
+                        <textarea class="form-control" aria-label="Other"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">Other</span>
+                        <textarea class="form-control" aria-label="Other"></textarea>
+                    </div>
+                </div>
+            </div>
+            <!-- This section is for Vitals and Consequences  -->
+            <div class="col d-flex flex-column col-4">
+                <div class="col">
+                    <h3>Vitals</h3>
+                </div>
+                <!-- Physical Stress -->
+                <div class="col">
+                    <div class="col">
+                        <p>(Physique) PHYSICAL STRESS</p>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="physiqueRadio" id="pRadio0" checked>
+                        <label class="form-check-label" for="pRadio0">0</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="physiqueRadio" id="pRadio1">
+                        <label class="form-check-label" for="pRadio1">1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="physiqueRadio" id="pRadio2">
+                        <label class="form-check-label" for="pRadio2">2</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="physiqueRadio" id="pRadio3">
+                        <label class="form-check-label" for="pRadio3">3</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="physiqueRadio" id="pRadio4">
+                        <label class="form-check-label" for="pRadio4">4</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="physiqueRadio" id="pRadio5">
+                        <label class="form-check-label" for="pRadio5">5</label>
+                    </div>
+                </div>
+                <!-- Mental Stress -->
+                <div class="col">
+                    <div class="col">
+                        <p>(Will) MENTAL STRESS</p>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="mentalRadio" id="mRadio0" checked>
+                        <label class="form-check-label" for="mRadio0">0</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="mentalRadio" id="mRadio1">
+                        <label class="form-check-label" for="mRadio1">1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="mentalRadio" id="mRadio2">
+                        <label class="form-check-label" for="mRadio2">2</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="mentalRadio" id="mRadio3">
+                        <label class="form-check-label" for="mRadio3">3</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="mentalRadio" id="mRadio4">
+                        <label class="form-check-label" for="mRadio4">4</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="mentalRadio" id="mRadio5">
+                        <label class="form-check-label" for="mRadio5">5</label>
+                    </div>
+                </div>
+                <!-- Consequences -->
+                <div class="col">
+                    <h3>Consequences</h3>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Mild</span>
+                        <textarea class="form-control" aria-label="Mild"></textarea>
+                        <div class="input-group-text">
+                            <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for mild consequences.">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">Moderate</span>
+                        <textarea class="form-control" aria-label="Moderate"></textarea>
+                        <div class="input-group-text">
+                            <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for moderate consequences.">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">Severe</span>
+                        <textarea class="form-control" aria-label="Severe"></textarea>
+                        <div class="input-group-text">
+                            <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for severe consequences.">
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <!-- This area is for Balance (Refresh and Stunts) -->
+            <div class="col d-flex flex-column col-4">
+                <div class="col">
+                    <h3>Balance</h3>
+                </div>
+                <!-- Refresh -->
+                <div class="col">
+                    <p>Refresh</p>
+                </div>
+                <div class="col">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="refresh1">
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="refresh2">
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="refresh3">
+                    </div>
+                </div>    
+                <!-- Stunts -->
+                <div class="col">
+                    <p>Stunts</p>
+                </div>
+                <div class="col">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="stunts1">
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="stunts2">
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="stunts3">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="stunts4">
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="stunts5">
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="stunts6">
+                    </div>
+                </div>      
+            </div>    
+        </div>
+    </div>    
+    <!--The third contains Skills, Power Profile, and the Other Stunts-->
+    <div class="container text-center">
+        <div class="row align-items-start">
+        </div>
+    </div>
+    
+    <!-- This is the JavaScript call -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
