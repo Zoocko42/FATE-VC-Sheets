@@ -1,0 +1,27 @@
+* {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(white, rgb(170, 219, 241), rgb(103, 202, 248))
+}
+
+#bigTitle {
+    font-size: 90px;
+}
+
+.row {
+    border: solid;
+    border-radius: 25px;
+    border-color: rgba(11, 73, 136, 0.596);
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.input-group-text, h3 {
+    background-color: rgb(170, 219, 241);
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: rgba(11, 73, 136, 0.596);
+}

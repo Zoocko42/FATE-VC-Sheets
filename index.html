@@ -4,13 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Press+Start+2P&family=Righteous&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
     <title>Venture City - Character Sheet</title>
   </head>
   <body>
     <header>
         <!-- This section contains the title and first three entry fields. -->
         <div class="container text-center">
-            <div class="row align-items-start">
+            <div class="row align-items-start mt-2">
               <div class="col d-flex flex-column">
                 <div class="col">
                     <div class="input-group">
@@ -32,43 +36,44 @@
                 </div>
               </div>
               <div class="col align-self-center">
-                <h1>Venture City</h1>
+                <h1 id="bigTitle">Venture City</h1>
               </div>
             </div>
+        </div>    
     </header>
 <!--The second row division contains Aspects, Vitals, and Balance-->
     <div class="container text-center">
         <div class="row align-items-start">
             <!-- This is the Aspects section. -->
-            <div class="col d-flex flex-column col-4">
+            <div class="col d-flex flex-column col-5">
                 <div class="col">
                     <h3>Aspects</h3>
                 </div>
                 <div class="col">
                     <div class="input-group">
                         <span class="input-group-text">High Concept</span>
-                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                        <textarea class="form-control" aria-label="High Concept" placeholder="The core concept of your character."></textarea>
                     </div>
                     <div class="input-group">
                         <span class="input-group-text">Trouble</span>
-                        <textarea class="form-control" aria-label="Trouble"></textarea>
+                        <textarea class="form-control" aria-label="Trouble" placeholder="A personal struggle or problematic relationship."></textarea>
                     </div>
                     <div class="input-group">
                         <span class="input-group-text">Other</span>
-                        <textarea class="form-control" aria-label="Other"></textarea>
+                        <textarea class="form-control" aria-label="Other" placeholder="An aspect of your character discovered through the phase trio!"></textarea>
                     </div>
                     <div class="input-group">
                         <span class="input-group-text">Other</span>
-                        <textarea class="form-control" aria-label="Other"></textarea>
+                        <textarea class="form-control" aria-label="Other" placeholder="An aspect of your character discovered through the phase trio!"></textarea>
                     </div>
                     <div class="input-group">
                         <span class="input-group-text">Other</span>
-                        <textarea class="form-control" aria-label="Other"></textarea>
+                        <textarea class="form-control" aria-label="Other" placeholder="An aspect of your character discovered through the phase trio!"></textarea>
                     </div>
                 </div>
             </div>
             <!-- This section is for Vitals and Consequences  -->
-            <div class="col d-flex flex-column col-4">
+            <div class="col d-flex flex-column col-5">
                 <div class="col">
                     <h3>Vitals</h3>
                 </div>
@@ -161,7 +166,7 @@
                 </div>    
             </div>
             <!-- This area is for Balance (Refresh and Stunts) -->
-            <div class="col d-flex flex-column col-4">
+            <div class="col d-flex flex-column col-2">
                 <div class="col">
                     <h3>Balance</h3>
                 </div>
@@ -212,6 +217,140 @@
     <!--The third contains Skills, Power Profile, and the Other Stunts-->
     <div class="container text-center">
         <div class="row align-items-start">
+            <!-- This is the Skills Inventory -->
+            <div class="col d-flex flex-column col-4">
+                <div class="col">
+                    <h3>Skills</h3>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">+4 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+3 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+3 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+2 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+2 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+2 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+1 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+1 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+1 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+1 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+0 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+0 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+0 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+0 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">+0 skill</span>
+                        <textarea class="form-control" aria-label="High Concept"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex flex-column col-6">
+                <div class="col">
+                    <h3>Power Profile</h3>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">POWER NAME AND SUMMARY</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Name and describe your powerset here!"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">POWER BREAKDOWN</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="List the powers and enhancements that make up your powerset!"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">SPECIAL EFFECTS (get 2 free w/ power; trigger on success with style)</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="List what cool things you can do when you succeed with style!"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">DRAWBACK</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="List an issue or 'trouble' caused by your power(s)."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">COLLATERAL DAMAGE EFFECTS</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="List an ability you can do to get some benefits, but with drawbacks that cause collateral damage."></textarea>
+                </div>
+            </div>
+            <div class="col d-flex flex-column col-2">
+                <div class="input-group mb-3 d-flex flex-column">
+                    <div class="input-group-prepend">
+                      <label class="input-group-text" for="inputGroupSelect01">COST</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                      <option selected>Cost</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="3">4</option>
+                      <option value="3">5</option>
+                      <option value="3">6</option>
+                      <option value="3">7</option>
+                      <option value="3">8</option>
+                    </select>
+                  </div>
+            </div>
+        </div>
+        <div class="row align-items-start mb-2">
+            <div class="col d-flex flex-column col-10">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">OTHER STUNTS</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="List other stunts your character has that are unrelated to their superpowers."></textarea>
+                </div>
+            </div>
+            <div class="col d-flex flex-column col-2">
+                <div class="input-group mb-3 d-flex flex-column">
+                    <div class="input-group-prepend">
+                      <label class="input-group-text" for="inputGroupSelect01">COST</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                      <option selected>Cost</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="3">4</option>
+                      <option value="3">5</option>
+                    </select>
+                </div>
+            </div>
         </div>
     </div>
     
